@@ -34,14 +34,36 @@ Using `or`, `and`, and `not` to evaluate multiple conditions at once. Demonstrat
 ### 6. `7_conditional_expression.py` — Conditional Expressions (Ternary Operator)
 A one-line shortcut for `if-else` logic using the format `X if condition else Y`. Takes two numbers as input and checks whether each is positive/negative and even/odd, then compares which is greater.
 
+### 7. `8_string_methods.py` — String Methods
+Exploring Python's built-in string functions using a name and phone number as inputs. Covers `len()`, `find()`, `rfind()`, `replace()`, `capitalize()`, `upper()`, `lower()`, `isdigit()`, and `isalpha()`.
+
+### 8. `9_string_indexing.py` — String Indexing & Slicing
+Accessing characters in a string using the `[start:end:step]` syntax. Demonstrated on a credit card number — covers positive/negative indexing, slicing ranges, step jumps, and reversing a string.
+
+### 9. `10_format_specifier.py` — Format Specifiers
+A reference sheet for f-string formatting flags, including decimal precision (`:.2f`), spacing, zero-padding, alignment (`:<`, `:>`, `:^`), sign display (`:+`), and comma separators (`:,`).
+
 ---
 
-## 🎮 Mini Project — `madlibs.py`
+## 🎮 Mini Projects
 
+### `madlibs.py` — Madlibs Game
 A command-line Madlibs game! The user is prompted to enter a name, adjective, noun, animal, and verb — then the program weaves them into a funny Python-themed story.
 
 **Sample story:**
 > *Today, [name] decided to write a Python script. First, they created a/an [adjective] variable and named it [noun]. Then, they wrote a "while loop" that made a/an [animal] print on the screen 100 times. When they finally pressed "Run," the computer [verb] and everyone in the room cheered!*
+
+### `mini_cal.py` — Mini Calculator
+A simple command-line calculator. Enter an operator (`+`, `-`, `*`, `/`) and two numbers, and it computes the result using `if/elif/else` logic.
+
+### `temperature_convertor.py` — Temperature Converter
+Converts a temperature between Celsius and Fahrenheit. Takes the value and unit as input, applies the correct formula, and prints the converted result rounded to 2 decimal places.
+
+### `weight_convertor.py` — Weight Converter
+Converts weight between Kilograms and Pounds. Accepts input in either unit and outputs the converted value using the appropriate formula.
+
+### `validate_user_input.py` — Username Validator
+Validates a username against three rules: must be 15 characters or fewer, no spaces, and no digits. Uses string methods learned in `8_string_methods.py` to enforce each rule.
 
 ---
 
@@ -69,6 +91,14 @@ python madlibs.py
 - [x] Mini project: Madlibs
 - [x] Logical operators (`or`, `and`, `not`)
 - [x] Conditional expressions (ternary operator)
+- [x] String methods
+- [x] String indexing & slicing
+- [x] Format specifiers
+---
+- [x] Mini project: Mini Calculator
+- [x] Mini project: Temperature Converter
+- [x] Mini project: Weight Converter
+- [x] Mini project: Validate User Input
 
 ---
 
