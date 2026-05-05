@@ -47,23 +47,7 @@ A reference sheet for f-string formatting flags, including decimal precision (`:
 
 ## 🎮 Mini Projects
 
-### `madlibs.py` — Madlibs Game
-A command-line Madlibs game! The user is prompted to enter a name, adjective, noun, animal, and verb — then the program weaves them into a funny Python-themed story.
-
-**Sample story:**
-> *Today, [name] decided to write a Python script. First, they created a/an [adjective] variable and named it [noun]. Then, they wrote a "while loop" that made a/an [animal] print on the screen 100 times. When they finally pressed "Run," the computer [verb] and everyone in the room cheered!*
-
-### `mini_cal.py` — Mini Calculator
-A simple command-line calculator. Enter an operator (`+`, `-`, `*`, `/`) and two numbers, and it computes the result using `if/elif/else` logic.
-
-### `temperature_convertor.py` — Temperature Converter
-Converts a temperature between Celsius and Fahrenheit. Takes the value and unit as input, applies the correct formula, and prints the converted result rounded to 2 decimal places.
-
-### `weight_convertor.py` — Weight Converter
-Converts weight between Kilograms and Pounds. Accepts input in either unit and outputs the converted value using the appropriate formula.
-
-### `validate_user_input.py` — Username Validator
-Validates a username against three rules: must be 15 characters or fewer, no spaces, and no digits. Uses string methods learned in `8_string_methods.py` to enforce each rule.
+Mini projects live in the `mini_projects/` folder. Filenames inside that folder are the project names (no numeric prefixes). See [mini_projects/README.md](mini_projects/README.md) for the current list and how to run each project.
 
 ---
 
