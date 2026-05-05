@@ -47,7 +47,40 @@ A reference sheet for f-string formatting flags, including decimal precision (`:
 
 ## 🎮 Mini Projects
 
-Mini projects live in the `mini_projects/` folder. Filenames inside that folder are the project names (no numeric prefixes). See [mini_projects/README.md](mini_projects/README.md) for the current list and how to run each project.
+Mini projects live in the `mini_projects/` folder. Filenames inside that folder are the project names (no numeric prefixes). Run any project with `python mini_projects/<project>.py`.
+
+Current projects in `mini_projects/`:
+
+- `file_io_notes_app.py` — Simple notes app using file I/O and JSON storage.
+- `web_title_scraper.py` — Fetches a page and prints the HTML title.
+- `text_data_visualizer.py` — Console histogram of word frequencies.
+- `cli_todo.py` — Small CLI todo manager using JSON storage.
+
+### Next Chapters (suggested filenames)
+
+Continue numbering chapters in the main folder using the same style as existing files (for example `11_loops.py`, `12_functions.py`, ...). Suggested next topics and short descriptions:
+
+11. `11_loops.py` — Loops: `for`, `while`, `range()`, `break`/`continue`, nested loops, loop patterns and common pitfalls.
+
+12. `12_functions.py` — Functions: defining functions, parameters, default args, `*args`/`**kwargs`, return values, scope, and docstrings.
+
+13. `13_collections.py` — Collections: lists, tuples, dictionaries, sets, common operations and idiomatic patterns.
+
+14. `14_file_io.py` — File I/O: reading/writing text and binary files, context managers, and JSON serialization.
+
+15. `15_modules_packages.py` — Modules and packages: imports, `__main__`, organizing code, and a brief intro to `pip`.
+
+16. `16_exceptions.py` — Error handling: `try`/`except`/`finally`, creating and raising custom exceptions.
+
+17. `17_oop.py` — Object-oriented programming: classes, instances, methods, inheritance, and dunder methods.
+
+18. `18_iterators_generators.py` — Iterators, generators, comprehensions, and lazy evaluation.
+
+19. `19_testing.py` — Testing basics: writing simple unit tests and an intro to `pytest`.
+
+20. `20_project.py` — Capstone project: combine multiple concepts into a small final project.
+
+If you want, I can create skeleton files for these chapters (empty templates with headers) and commit them so you can start filling them.
 
 ---
 
